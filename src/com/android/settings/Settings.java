@@ -69,7 +69,6 @@ import com.android.settings.accounts.ManageAccountsSettings;
 import com.android.settings.applications.AppOpsSummary;
 import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ProcessStatsUi;
-import com.android.settings.slim.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothEnabler;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.deviceinfo.Memory;
@@ -352,8 +351,7 @@ public class Settings extends PreferenceActivity
         PrintJobSettingsFragment.class.getName(),
         TrustedCredentialsSettings.class.getName(),
         PaymentSettings.class.getName(),
-        KeyboardLayoutPickerFragment.class.getName(),
-        BlacklistSettings.class.getName(),
+        KeyboardLayoutPickerFragment.class.getName()
     };
 
     @Override
@@ -509,7 +507,6 @@ public class Settings extends PreferenceActivity
         if (WifiSettings.class.getName().equals(fragmentName) ||
                 WifiP2pSettings.class.getName().equals(fragmentName) ||
                 WifiDisplaySettings.class.getName().equals(fragmentName) ||
-                BlacklistSettings.class.getName().equals(fragmentName) ||
                 BluetoothSettings.class.getName().equals(fragmentName) ||
                 DreamSettings.class.getName().equals(fragmentName) ||
                 LocationSettings.class.getName().equals(fragmentName) ||
@@ -1114,5 +1111,4 @@ public class Settings extends PreferenceActivity
     public static class PaymentSettingsActivity extends Settings { /* empty */ }
     public static class PrintSettingsActivity extends Settings { /* empty */ }
     public static class PrintJobSettingsActivity extends Settings { /* empty */ }
-    public static class BlacklistSettingsActivity extends Settings { /* empty */ }
 }
