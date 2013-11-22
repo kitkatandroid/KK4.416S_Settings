@@ -41,8 +41,8 @@
     <string name="set">Set</string>
 
     <!-- About phone screen, slim version -->
-    <string name="slim_version_title">Slim version</string>
-    <string name="slim_version_default">Unknown</string>
+    <string name="slim_version_title">NARP version</string>
+    <string name="slim_version_default">1.0</string>
 
     <!-- Display settings screen, notification light settings -->
     <string name="display_category_light_options_title">Light options</string>
