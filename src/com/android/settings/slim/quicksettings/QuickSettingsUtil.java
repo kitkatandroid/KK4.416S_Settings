@@ -189,9 +189,9 @@ public class QuickSettingsUtil {
         }
 
         // Don't show the LTE tile if not supported
-        if (!DeviceUtils.deviceSupportsLte(context)) {
-            removeTile(TILE_LTE);
-        }
+        //if (!DeviceUtils.deviceSupportsLte(context)) {
+            //removeTile(TILE_LTE);
+        //}
 
         // Don't show the Torch tile if not supported
         if (!DeviceUtils.deviceSupportsTorch(context)) {
